@@ -15,7 +15,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-hybrid-workspace/*": ["libs/*"],
+      "@nx-hybrid-workspace/ionic": ["xplat/ionic/index.ts"],
+      "@nx-hybrid-workspace/ionic/*": ["xplat/ionic/*"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

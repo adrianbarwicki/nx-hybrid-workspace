@@ -13,6 +13,12 @@
     },
     "sample": {
       "tags": []
+    },
+    "libs": {
+      "tags": []
+    },
+    "xplat": {
+      "tags": []
     }
   }
 }
